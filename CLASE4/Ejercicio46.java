@@ -14,13 +14,13 @@ public class Ejercicio46 {
         System.out.println("Digite el mes:");
         int mes = sc.nextInt();
         
-        System.out.println("Digite el anio:");
-        int anio = sc.nextInt();
+        System.out.println("Digite el año:");
+        int año = sc.nextInt();
         
         boolean bisiesto;
         
         // Verificar si es año bisiesto
-        if ((anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0)){
+        if ((año % 4 == 0 && año % 100 != 0) || (año % 400 == 0)){
             bisiesto = true;
         }else{
             bisiesto = false;
@@ -54,11 +54,11 @@ public class Ejercicio46 {
             
             if (mes > 12){
                 mes = 1;
-                anio = anio + 1;
+                año = año + 1;
             }
         }
         
-        System.out.println("La fecha del dia siguiente es: " + dia + "/" + mes + "/" + anio);
+        System.out.println("La fecha del dia siguiente es: " + dia + "/" + mes + "/" + año);
         
         sc.close();
     }
