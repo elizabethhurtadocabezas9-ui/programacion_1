@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Fase3_Menu {
     public static void main(String[] args) {
 
-            Scanner sc = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
                     int opcion = -1;
 
                             while (opcion != 0) {
